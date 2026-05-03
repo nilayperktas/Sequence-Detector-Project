@@ -33,7 +33,7 @@ module tb_sequence_detector();
         #10 data_in = 0;
         #10 data_in = 1;
         #10 data_in = 1; // Sequence complete
-        #10 $display("Moore: %b  Mealy: %b (ikisi de 1 olmali)", detected_moore, detected_mealy);
+        #10 $display("Moore: %b  Mealy: %b (both should be 1)", detected_moore, detected_mealy);
 
         // Add some random bits and repeat
         #10 data_in = 0;
