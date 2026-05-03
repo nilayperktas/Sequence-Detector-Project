@@ -25,8 +25,6 @@ Open your terminal or command prompt, navigate to the folder where the files are
 
 iverilog -o sequence_sim sequence_detector.v tb_sequence_detector.v
 
-iverilog -o sequence_sim sequence_detector.v tb_sequence_detector.v
-
 Step 3: Run the simulation
 After successful compilation, execute the generated simulation file:
 
